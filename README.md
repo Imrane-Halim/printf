@@ -1,5 +1,4 @@
-# ft_printf 📝
-================
+# ft_printf 📝 #
 
 A recreation of the `printf` function in C, as part of the 42 school curriculum 🎓.
 
