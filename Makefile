@@ -1,9 +1,7 @@
-CFLAGS = -Wall -Wextra -Werror
-SRCS = ft_printf.c ft_putchar.c ft_puthex.c ft_putnbr.c ft_putptr.c \
-	   ft_putstr.c ft_unsigned.c
+CFLAGS = -Wall -Wextra -Werror -I inc
+SRCS = $(wildcard src/*.c)
 OBJS = $(SRCS:.c=.o)
 NAME = libftprintf.a
-INC = ft_printf.h
 
 all: $(NAME)
 
@@ -14,7 +12,7 @@ $(NAME): $(OBJS)
 	cc $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf *.o 
+	rm -rf src/*.o 
 
 fclean: clean
 	rm -rf $(NAME)
