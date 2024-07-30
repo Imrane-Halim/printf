@@ -13,4 +13,3 @@ int	ft_putptr(unsigned long p)
 	}
 	return (ft_putstr("(nil)"));
 }
-

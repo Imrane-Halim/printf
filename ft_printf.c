@@ -40,4 +40,3 @@ int	ft_printf(const char *string, ...)
 	va_end(args);
 	return (count);
 }
-

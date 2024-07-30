@@ -21,4 +21,3 @@ int	ft_putnbr(int n)
 	count++;
 	return (count);
 }
-
