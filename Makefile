@@ -1,5 +1,6 @@
 CFLAGS = -Wall -Wextra -Werror
-SRCS = ft_printf.c printf_utils.c
+SRCS = ft_printf.c ft_putchar.c ft_puthex.c ft_putnbr.c ft_putptr.c \
+	   ft_putstr.c ft_unsigned.c
 OBJS = $(SRCS:.c=.o)
 NAME = libftprintf.a
 INC = ft_printf.h
