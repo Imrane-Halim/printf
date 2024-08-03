@@ -33,7 +33,6 @@ This project aims to mimic the behavior of the original `printf` function from t
 * `make clean` : Clean the object files and library 🧹
 * `make fclean` : Clean the object files, library, and test files 🧹
 * `make re` : Rebuild the library and run the tests 🔁
-* `make bonus` : Compile the library with bonus features 🎁
 
 **Example use cases**
 --------------------
